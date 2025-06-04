@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+}
+
+body {
+  background: linear-gradient(#121212, #301716 45%, #4D1C19 75%);
+  color: #F5F3F4;
+}
+
+header {
+  padding: 20px 10%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.github {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.github-logo {
+  background: #F5F3F4;
+  border: 1px solid #F5F3F4;
+  border-radius: 50%;
+  width: 40px;
+}
+
+.github-logo:hover {
+  box-shadow: 0 0 15px #F5F3F4;
+  cursor: pointer;
+}
+
+.hero {
+  padding: 20px 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  max-width: 400px;
+}
+
+.hero-text p {
+  line-height: 20px;
+}
+
+.contact-btn {
+  border-radius: 10px;
+  background: #D44843;
+  color: #F5F3F4;
+  border: 1px solid #D44843;
+  width: fit-content;
+  padding: 10px 15px;
+}
+
+.contact-btn:hover {
+  background: none;
+  border: 1px solid #D44843;
+  cursor: pointer;
+}
+
+section {
+  padding: 20px 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #F5F3F4;
+}
+
+.card:hover {
+  background: rgba(245, 243, 244, 0.9);
+
+}
+
+.card {
+  width: 600px;
+  background: rgba(245, 243, 244, 0.6);
+  color: #0B090A;
+  padding: 10px 15px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.project-text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+h4 {
+  color: #454545;
+  font-style: italic;
+}
+
+.project-img {
+  width: 200px;
+  height: 150px;
+  border-radius: 10px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  gap: 15px;
+}
+
+input, textarea{
+  min-height: 30px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.submit {
+  color: #F5F3F4;
+  border: 1px solid #D44843;
+  width:100px;
+  background: #D44843;
+  margin: 0 auto;
+}
+
+.submit:hover {
+  background: none;
+  border: 1px solid #D44843;
+  cursor: pointer;
+}
